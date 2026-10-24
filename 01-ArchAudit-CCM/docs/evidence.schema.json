@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence",
+  "type": "object",
+  "required": ["evidence_id", "control_id", "source", "collected_at", "content_hash", "payload"],
+  "properties": {
+    "evidence_id": {"type": "string"},
+    "control_id": {"type": "string"},
+    "source": {"type": "string"},
+    "collected_at": {"type": "string", "format": "date-time"},
+    "content_hash": {"type": "string"},
+    "payload": {"type": "object"}
+  }
+}

@@ -1,0 +1,27 @@
+# Control pack v1 — Access, Change, Logging
+version: "1.0"
+controls:
+  - id: ACC-MFA-ADMIN
+    family: Access
+    title: MFA enforced for admin roles
+    rule: "admin_mfa == true"
+  - id: ACC-MFA-OPERATOR
+    family: Access
+    title: MFA enforced for operator roles
+    rule: "operator_mfa == true"
+  - id: CHG-BRANCH-MAIN
+    family: Change
+    title: Main branch protected
+    rule: "main_protected == true"
+  - id: CHG-TICKET-PROD
+    family: Change
+    title: Production changes require ticket
+    rule: "prod_change_has_ticket == true"
+  - id: LOG-RETENTION-APP
+    family: Logging
+    title: App logs retained >= 30 days
+    rule: "app_log_retention_days >= 30"
+  - id: LOG-RETENTION-AUTH
+    family: Logging
+    title: Auth logs retained >= 90 days
+    rule: "auth_log_retention_days >= 90"

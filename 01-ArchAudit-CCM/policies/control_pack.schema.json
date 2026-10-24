@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ControlPack",
+  "type": "object",
+  "required": ["version", "controls"],
+  "properties": {
+    "version": {"type": "string"},
+    "controls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "family", "title", "rule"],
+        "properties": {
+          "id": {"type": "string"},
+          "family": {"type": "string"},
+          "title": {"type": "string"},
+          "rule": {"type": "string"}
+        }
+      }
+    }
+  }
+}
