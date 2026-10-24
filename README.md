@@ -1,10 +1,11 @@
 # FDE Platform 2026
 
-[![Status](https://img.shields.io/badge/Status-separate%20repositories-brightgreen)]()
+<p align="center">
+  <strong>Evidence-native continuous control monitoring, agent bridge, and FDE engagement kit</strong><br/>
+  for African operating environments
+</p>
 
-**Evidence-native continuous control monitoring, agent bridge, and FDE engagement kit for African operating environments.**
-
-All project code from the original Drive folder now lives in dedicated repositories.
+[![Status](https://img.shields.io/badge/Status-separate%20repositories-brightgreen?style=flat)]()
 
 ---
 
@@ -23,3 +24,7 @@ Evidence is the source of truth. Deterministic rules first. Policy-gated agent a
 ## Source
 
 Originally packaged in Google Drive folder `FDE-Platform-2026`. Full content has been pushed to the repositories above.
+
+## Visual assets
+
+Each companion repository includes a visual assets checklist (social preview, demo GIF, logo). Generate 1280×640 social previews with Socialify or custom design and set them in repo Settings.
