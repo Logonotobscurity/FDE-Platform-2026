@@ -1,7 +1,7 @@
 # FDE Platform 2026
 
 <p align="center">
-  <strong>Evidence-native continuous control monitoring, agent bridge, and FDE engagement kit</strong><br/>
+  <strong>Evidence-native continuous control monitoring<br/>with policy-gated agent assistance</strong><br/>
   for African operating environments
 </p>
 
@@ -17,14 +17,12 @@
 | **AgentBridge Africa** | [AgentBridge-Africa](https://github.com/Logonotobscurity/AgentBridge-Africa) | Multi-agent bridge with hard budgets & regional profiles |
 | **GigPilot** | [GigPilot](https://github.com/Logonotobscurity/GigPilot) | FDE engagement kit (discovery → handoff) |
 
-## Architecture positioning
+## Positioning
 
 Evidence is the source of truth. Deterministic rules first. Policy-gated agent assistance. Regional concerns live in adapters and packs, not core evaluation logic.
 
-## Source
-
-Originally packaged in Google Drive folder `FDE-Platform-2026`. Full content has been pushed to the repositories above.
+Originally packaged in the Google Drive folder `FDE-Platform-2026`. All content has been pushed to the dedicated repositories above.
 
 ## Visual assets
 
-Each companion repository includes a visual assets checklist (social preview, demo GIF, logo). Generate 1280×640 social previews with Socialify or custom design and set them in repo Settings.
+Each repository includes a visual assets checklist. Generate 1280×640 social previews and set them in repository Settings.
