@@ -1,8 +1,7 @@
 # FDE Platform 2026
 
 <p align="center">
-  <strong>Evidence-native continuous control monitoring<br/>with policy-gated agent assistance</strong><br/>
-  for African operating environments
+  <img src="docs/assets/social-preview.svg" alt="FDE Platform 2026: evidence-native controls, bounded agents, and repeatable delivery artifacts" width="100%" />
 </p>
 
 [![Status](https://img.shields.io/badge/Status-separate%20repositories-brightgreen?style=flat)]()
