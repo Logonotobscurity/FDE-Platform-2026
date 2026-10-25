@@ -39,3 +39,8 @@ Originally packaged in the Google Drive folder `FDE-Platform-2026`. All content 
 ## Visual assets
 
 Each repository includes a visual assets checklist. Generate 1280×640 social previews and set them in repository Settings.
+
+
+## Project readiness
+
+See [docs/PROJECT_STATUS.md](docs/PROJECT_STATUS.md) for committed improvements, verification status, and the remaining steps before public demonstrations.
